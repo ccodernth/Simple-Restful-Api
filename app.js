@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://root:TnvsGXwnLiJb7RzD@cluster0.yulz1tg.mongodb.net/wikiDB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://root:<password>@cluster0.yulz1tg.mongodb.net/DB?retryWrites=true&w=majority", {
   useNewUrlParser: true
 });
 
